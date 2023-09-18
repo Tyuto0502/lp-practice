@@ -28,16 +28,13 @@ nav {
   color: #777;
 }
 
-.contact {
-  display: inline-block;
-}
-
 .contact a {
   padding: 12px 14px;
   font-size: 12px;
   background-color: #6ba7eb;
   color: #ffffff;
   text-decoration: none;
+  display: inline-block;
 }
 
 .contact a:hover {
