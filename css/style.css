@@ -7,21 +7,19 @@ section {
 
 .inner {
   width: 1100px;
-  display: inline-block;
   margin: 0 auto;
-  text-align: center;
 }
 
 header {
   background: #fff;
   text-align: center;
+  padding: 15px 0;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 15px 0;
 }
 
 .fas {
@@ -50,7 +48,7 @@ nav {
 }
 
 .titles {
-  margin: 400px 0;
+  padding: 400px 0;
 }
 
 h1 {
@@ -83,7 +81,7 @@ h2 {
 }
 
 .contents {
-  margin-top: 50px;
+  padding-top: 50px;
   display: flex;
 }
 
@@ -114,14 +112,11 @@ h2 {
 .skills {
   background: #fff;
   line-height: 0;
+  padding: 50px 0 70px 0;
 }
 
 .skills-title {
-  margin: 50px 0;
-}
-
-.skill-pictures {
-  margin-bottom: 70px;
+  margin-bottom: 50px;
 }
 
 .skill-pictures::after {
@@ -160,10 +155,11 @@ li:nth-child(n+4) {
 
 .plans {
   background: #d0dfea;
+  padding: 50px 0;
 }
 
 .plan-title {
-  margin: 50px 0;
+  margin-bottom: 50px;
 }
 
 .plan-table {
@@ -173,7 +169,6 @@ li:nth-child(n+4) {
   border-collapse: collapse;
   border-spacing: 0;
   background: #f9f9f9;
-  margin-bottom: 50px;
 }
 
 .plan-table tr:nth-child(2n+1) {
@@ -229,12 +224,12 @@ li:nth-child(n+4) {
 footer {
   background: #cfd8dc;
   text-align: center;
+  padding: 20px 0 25px 0;
 }
 
 .footer-text {
   font-size: 10px;
   letter-spacing: 0.5px;
   margin: 0;
-  padding: 20px 0 25px 0;
   text-align: right;
 }
