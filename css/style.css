@@ -1,5 +1,9 @@
 @charset "utf-8";
 
+main {
+  padding-top: 78px;
+}
+
 section {
   width: 100%;
   text-align: center;
@@ -48,9 +52,6 @@ nav {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-}
-
-.titles {
   padding: 400px 0;
 }
 
@@ -81,10 +82,10 @@ h2 {
 .work {
   background: #e3f2fd;
   line-height: 0;
+  padding-top: 50px;
 }
 
 .contents {
-  padding-top: 50px;
   display: flex;
 }
 
@@ -142,6 +143,7 @@ li {
   width: 300px;
   height: 300px;
   opacity: 0.7;
+  transition: 0.7s;
 }
 
 li:nth-child(-n+3) {
@@ -154,7 +156,6 @@ li:nth-child(3n) {
 
 .skill-pic:hover {
   opacity: 1.0;
-  transition: 0.7s;
 }
 
 .plans {
@@ -204,10 +205,10 @@ li:nth-child(3n) {
 
 .sns {
   background: #e3f2fd;
+  padding: 200px 0;
 }
 
 .icon-box {
-  padding: 200px 0;
   display: flex;
   justify-content: center;
 }
