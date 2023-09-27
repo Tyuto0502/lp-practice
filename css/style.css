@@ -133,7 +133,7 @@ ul {
   padding: 0;
 }
 
-li {
+.pic {
   float: left;
   list-style: none;
   margin: 100px 100px 0 0;
@@ -219,11 +219,11 @@ li:nth-child(3n) {
   color: #8c8c8c;
   overflow: hidden;
   font-size: 40px;
+  transition: 0.5s;
 }
 
 .icon-box i:hover {
   background-color: #fff;
-  transition: 0.5s;
 }
 
 footer {
@@ -238,3 +238,4 @@ footer {
   margin: 0;
   text-align: right;
 }
+
