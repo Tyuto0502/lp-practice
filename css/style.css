@@ -40,11 +40,11 @@ nav {
   color: #ffffff;
   text-decoration: none;
   display: inline-block;
+  transition: 0.3s;
 }
 
 .contact a:hover {
   color: #333;
-  transition: 0.3s;
 }
 
 .keyvisual {
