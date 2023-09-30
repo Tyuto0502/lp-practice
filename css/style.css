@@ -23,7 +23,7 @@ header {
   z-index: 1;
 }
 
-nav {
+.header-nav {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -146,11 +146,11 @@ ul {
   transition: 0.7s;
 }
 
-li:nth-child(-n+3) {
+.pic:nth-child(-n+3) {
   margin-top: 0;
 }
 
-li:nth-child(3n) {
+.pic:nth-child(3n) {
   margin-right: 0;
 }
 
@@ -208,12 +208,12 @@ li:nth-child(3n) {
   padding: 200px 0;
 }
 
-.icon-box {
+.sns-nav {
   display: flex;
   justify-content: center;
 }
 
-.icon-box i {
+.sns-nav i {
   width: 185px;
   padding: 25px 0;
   color: #8c8c8c;
@@ -222,7 +222,7 @@ li:nth-child(3n) {
   transition: 0.5s;
 }
 
-.icon-box i:hover {
+.sns-nav i:hover {
   background-color: #fff;
 }
 
@@ -238,4 +238,3 @@ footer {
   margin: 0;
   text-align: right;
 }
-
