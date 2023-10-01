@@ -47,6 +47,50 @@ header {
   color: #333;
 }
 
+.sp-menu {
+  display: none;
+}
+
+/* ハンバーガーメニュー*/
+.sp-menu {
+  width: 36px;
+  height: 36px;
+}
+
+.sp-menu_box {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  border: 2px solid #777;
+  border-radius: 5px;
+  height: 36px;
+  width: 36px;
+  z-index: 1;
+}
+
+.sp-menu_box span,
+.sp-menu_box span::before,
+.sp-menu_box span::after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 25px;
+  background: #777;
+  position: absolute;
+}
+
+.sp-menu_box span::before {
+  bottom: 8px;
+}
+
+.sp-menu_box span::after {
+  top: 8px;
+}
+/*ハンバーガーメニューここまで*/
+
+
 .keyvisual {
   background-image: url("../img/keyvisual/keyvisual.jpg");
   background-size: cover;
@@ -237,4 +281,94 @@ footer {
   letter-spacing: 0.5px;
   margin: 0;
   text-align: right;
+}
+
+@media (max-width: 1199px) {
+  .inner {
+    width: 97%;
+  }
+
+  .keyvisual {
+    padding: 250px 0;
+  }
+
+  /* work */
+  .work {
+    padding: 50px 0;
+  }
+
+  .contents {
+    display: block;
+    text-align: center;
+  }
+
+  .content-item {
+    width: 100%;
+  }
+
+  /* skills */
+  .pic {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .pic:nth-child(3n+1) {
+    margin-top: 80px;
+  }
+
+  .pic:first-child {
+    margin-top: 0;
+  }
+
+}
+
+@media (max-width: 767px) {
+  .contact {
+    display: none;
+  }
+
+  .sp-menu {
+    display: inline-block;
+  }
+
+/* keyvisual */
+  .keyvisual {
+    padding: 200px 0;
+  }
+
+  h1 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .sub-title {
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+/* plan */
+  .plan-table th {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .plan-table td {
+    font-size: 12px;
+  }
+
+/* sns */
+  .sns {
+    padding: 50px 15px;
+  }
+
+  .sns-nav {
+  flex-direction: column;
+  }
+
+  .sns-nav i {
+    width: 100px;
+    padding: 50px 0;
+  }
+
 }
