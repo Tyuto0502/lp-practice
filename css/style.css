@@ -359,7 +359,14 @@ footer {
 
 /* sns */
   .sns {
-    padding: 50px 0;
+    padding: 50px 15px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  .sp-sns-inner {
+    margin: 0;
+    width: 100%;
   }
 
   .sns-nav {
